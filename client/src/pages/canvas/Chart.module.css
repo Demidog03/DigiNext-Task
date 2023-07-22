@@ -1,0 +1,17 @@
+.chartWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  maxHeight: 100dvh;
+  gap: 20px;
+}
+.chartWrapper button {
+  align-self: center;
+  padding: 15px 25px;
+  background-color: white;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=Chart.module.css.map */

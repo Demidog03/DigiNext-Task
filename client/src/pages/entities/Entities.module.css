@@ -1,0 +1,66 @@
+.table {
+  border: 1px solid white;
+  padding: 15px;
+}
+.table tr {
+  border-bottom: 1px solid white;
+}
+.table tr td, .table tr th {
+  border-right: 1px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.table tr:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.selectedEntityWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.selectedEntityWrapper p {
+  margin: 0;
+}
+.selectedEntityWrapper p span {
+  font-weight: bold;
+}
+.selectedEntityWrapper p img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.selectedEntityWrapper .labels {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.selectedEntityWrapper button {
+  padding: 10px;
+}
+.selectedEntityWrapper button img {
+  width: 20px;
+  height: 20px;
+}
+.selectedEntityWrapper button:hover {
+  background-color: rgba(26, 26, 26, 0.68);
+}
+
+.newEntityForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.newEntityForm input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  background-color: #1a1a1a;
+}
+
+/*# sourceMappingURL=Entities.module.css.map */
